@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F720D291415D8DB00DF85CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F720D281415D8DB00DF85CF /* UIKit.framework */; };
+		9F720D2B1415D8DB00DF85CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F720D2A1415D8DB00DF85CF /* Foundation.framework */; };
+		9F720D2D1415D8DB00DF85CF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F720D2C1415D8DB00DF85CF /* CoreGraphics.framework */; };
+		9F720D331415D8DB00DF85CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9F720D311415D8DB00DF85CF /* InfoPlist.strings */; };
+		9F720D351415D8DB00DF85CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F720D341415D8DB00DF85CF /* main.m */; };
+		9F720D391415D8DB00DF85CF /* Singleton1AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F720D381415D8DB00DF85CF /* Singleton1AppDelegate.m */; };
+		9F720D3C1415D8DB00DF85CF /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F720D3A1415D8DB00DF85CF /* MainWindow.xib */; };
+		9F720D441415D93F00DF85CF /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F720D431415D93F00DF85CF /* MainViewController.m */; };
+		9F720D471415DAD300DF85CF /* MyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F720D461415DAD300DF85CF /* MyManager.m */; };
+		9F720D4E1415F10B00DF85CF /* MySingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F720D4D1415F10B00DF85CF /* MySingleton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9F720D241415D8DB00DF85CF /* Singleton1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Singleton1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F720D281415D8DB00DF85CF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9F720D2A1415D8DB00DF85CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9F720D2C1415D8DB00DF85CF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9F720D301415D8DB00DF85CF /* Singleton1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Singleton1-Info.plist"; sourceTree = "<group>"; };
+		9F720D321415D8DB00DF85CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9F720D341415D8DB00DF85CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9F720D361415D8DB00DF85CF /* Singleton1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Singleton1-Prefix.pch"; sourceTree = "<group>"; };
+		9F720D371415D8DB00DF85CF /* Singleton1AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Singleton1AppDelegate.h; sourceTree = "<group>"; };
+		9F720D381415D8DB00DF85CF /* Singleton1AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Singleton1AppDelegate.m; sourceTree = "<group>"; };
+		9F720D3B1415D8DB00DF85CF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		9F720D421415D93F00DF85CF /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		9F720D431415D93F00DF85CF /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		9F720D451415DAD300DF85CF /* MyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyManager.h; sourceTree = "<group>"; };
+		9F720D461415DAD300DF85CF /* MyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyManager.m; sourceTree = "<group>"; };
+		9F720D4C1415F10B00DF85CF /* MySingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySingleton.h; sourceTree = "<group>"; };
+		9F720D4D1415F10B00DF85CF /* MySingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySingleton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9F720D211415D8DB00DF85CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F720D291415D8DB00DF85CF /* UIKit.framework in Frameworks */,
+				9F720D2B1415D8DB00DF85CF /* Foundation.framework in Frameworks */,
+				9F720D2D1415D8DB00DF85CF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F720D191415D8DB00DF85CF = {
+			isa = PBXGroup;
+			children = (
+				9F720D2E1415D8DB00DF85CF /* Singleton1 */,
+				9F720D271415D8DB00DF85CF /* Frameworks */,
+				9F720D251415D8DB00DF85CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9F720D251415D8DB00DF85CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9F720D241415D8DB00DF85CF /* Singleton1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F720D271415D8DB00DF85CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F720D281415D8DB00DF85CF /* UIKit.framework */,
+				9F720D2A1415D8DB00DF85CF /* Foundation.framework */,
+				9F720D2C1415D8DB00DF85CF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F720D2E1415D8DB00DF85CF /* Singleton1 */ = {
+			isa = PBXGroup;
+			children = (
+				9F720D371415D8DB00DF85CF /* Singleton1AppDelegate.h */,
+				9F720D381415D8DB00DF85CF /* Singleton1AppDelegate.m */,
+				9F720D421415D93F00DF85CF /* MainViewController.h */,
+				9F720D431415D93F00DF85CF /* MainViewController.m */,
+				9F720D451415DAD300DF85CF /* MyManager.h */,
+				9F720D461415DAD300DF85CF /* MyManager.m */,
+				9F720D4C1415F10B00DF85CF /* MySingleton.h */,
+				9F720D4D1415F10B00DF85CF /* MySingleton.m */,
+				9F720D3A1415D8DB00DF85CF /* MainWindow.xib */,
+				9F720D2F1415D8DB00DF85CF /* Supporting Files */,
+			);
+			path = Singleton1;
+			sourceTree = "<group>";
+		};
+		9F720D2F1415D8DB00DF85CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F720D301415D8DB00DF85CF /* Singleton1-Info.plist */,
+				9F720D311415D8DB00DF85CF /* InfoPlist.strings */,
+				9F720D341415D8DB00DF85CF /* main.m */,
+				9F720D361415D8DB00DF85CF /* Singleton1-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9F720D231415D8DB00DF85CF /* Singleton1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F720D3F1415D8DB00DF85CF /* Build configuration list for PBXNativeTarget "Singleton1" */;
+			buildPhases = (
+				9F720D201415D8DB00DF85CF /* Sources */,
+				9F720D211415D8DB00DF85CF /* Frameworks */,
+				9F720D221415D8DB00DF85CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Singleton1;
+			productName = Singleton1;
+			productReference = 9F720D241415D8DB00DF85CF /* Singleton1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9F720D1B1415D8DB00DF85CF /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 9F720D1E1415D8DB00DF85CF /* Build configuration list for PBXProject "Singleton1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9F720D191415D8DB00DF85CF;
+			productRefGroup = 9F720D251415D8DB00DF85CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9F720D231415D8DB00DF85CF /* Singleton1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F720D221415D8DB00DF85CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F720D331415D8DB00DF85CF /* InfoPlist.strings in Resources */,
+				9F720D3C1415D8DB00DF85CF /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F720D201415D8DB00DF85CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F720D351415D8DB00DF85CF /* main.m in Sources */,
+				9F720D391415D8DB00DF85CF /* Singleton1AppDelegate.m in Sources */,
+				9F720D441415D93F00DF85CF /* MainViewController.m in Sources */,
+				9F720D471415DAD300DF85CF /* MyManager.m in Sources */,
+				9F720D4E1415F10B00DF85CF /* MySingleton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9F720D311415D8DB00DF85CF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F720D321415D8DB00DF85CF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9F720D3A1415D8DB00DF85CF /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9F720D3B1415D8DB00DF85CF /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9F720D3D1415D8DB00DF85CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9F720D3E1415D8DB00DF85CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9F720D401415D8DB00DF85CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Singleton1/Singleton1-Prefix.pch";
+				INFOPLIST_FILE = "Singleton1/Singleton1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9F720D411415D8DB00DF85CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Singleton1/Singleton1-Prefix.pch";
+				INFOPLIST_FILE = "Singleton1/Singleton1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9F720D1E1415D8DB00DF85CF /* Build configuration list for PBXProject "Singleton1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F720D3D1415D8DB00DF85CF /* Debug */,
+				9F720D3E1415D8DB00DF85CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F720D3F1415D8DB00DF85CF /* Build configuration list for PBXNativeTarget "Singleton1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F720D401415D8DB00DF85CF /* Debug */,
+				9F720D411415D8DB00DF85CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9F720D1B1415D8DB00DF85CF /* Project object */;
+}
